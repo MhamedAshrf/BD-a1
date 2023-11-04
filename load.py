@@ -1,5 +1,6 @@
 import pandas as pd
+import sys
 def p():
-    path = input("Please Enter the Path of the dataset: ")
+    path = sys.argv[1]
     data = pd.read_csv(path)
     return data

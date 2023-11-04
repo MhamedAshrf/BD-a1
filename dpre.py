@@ -1,6 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import load
+import eda
+import vis
 df = load.p()
 
 ### CLeaning
@@ -37,3 +39,6 @@ df.drop('Fare',axis=1,inplace = True)
 
 
 df.to_csv('res_dpre.csv')
+
+eda(df)
+vis(df)
