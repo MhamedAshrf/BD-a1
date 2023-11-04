@@ -14,6 +14,4 @@ COPY dpre.py /home/doc-bd-a1/
 
 COPY final.sh /home/doc-bd-a1/
 
-
-
 CMD "/bin/bash"
