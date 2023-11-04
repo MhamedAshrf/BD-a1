@@ -1,5 +1,5 @@
 import pandas as pd
-
-path = input("Please Enter the Path of the dataset: ")
-
-data = pd.read_csv(path)
+def p():
+    path = input("Please Enter the Path of the dataset: ")
+    data = pd.read_csv(path)
+    return data
